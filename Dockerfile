@@ -6,7 +6,6 @@ RUN apk add --no-cache \
             yarn \
             git
 RUN node -v
-RUN node -v
 
 WORKDIR /usr/src/app
 CMD ["yarn", "start"]
